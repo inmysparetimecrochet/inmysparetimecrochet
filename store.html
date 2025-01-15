@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>inmysparetime_crochet</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <!-- Favicon Files -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    
+    <style>
+        /* Custom style for the pink banner */
+        #thank-you-banner {
+            background-color: #e28a9d; /* Muted pink background */
+            color: white; /* White text */
+            text-align: center; /* Center the text */
+            padding: 0px 0; /* Padding for a nice look */
+            font-size: 14px; /* Font size */
+            position: relative; /* Positioning context */
+            z-index: 1000; /* Ensure it sits above other content */
+        }
+    </style>
+</head>
+<body class="is-preload homepage">
+    <div id="page-wrapper">
+        <!-- Small Pink Banner -->
+        <div id="thank-you-banner">
+            <p>THANKS FOR STOPPING BY!</p>
+        </div>
+
+        <!-- Header -->
+        <div id="header-wrapper">
+            <header id="header" class="container">
+                <!-- Logo -->
+                <div id="logo">
+                    <a href="index.html">
+                        <img src="images/image1.png" alt="Logo" style="width: 200px; height: auto;" />
+                    </a>
+                </div>
+
+                <!-- Navigation -->
+                <nav id="nav">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li class="current"><a href="store.html">STORE</a></li>
+                        <li><a href="custom-orders.html">CUSTOM ORDERS</a></li>
+                        <li><a href="contact-us.html">CONTACT US</a></li>
+                        <li><a href="links.html">LINKS</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+<!-- Banner -->
+<div id="banner-wrapper">
+    <div id="banner" class="box container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="store-title">Store</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .store-title {
+        color: #e28a9d;
+        text-shadow: 1px 3px 1px #b1ebf6;
+        margin-bottom: 20px; /* Reduced margin */
+    }
+
+    #banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px; /* Added a fixed height to make the box smaller */
+    }
+</style>
+
+<!-- Add this section right after the "Store" banner and before the features-wrapper -->
+<div class="etsy-cta-section container">
+    <div class="row">
+        <div class="col-12 text-center">
+            <a href="https://inmysparetimecrochau.etsy.com" target="_blank" class="etsy-store-button">
+                <span class="icon brands fa-etsy etsy-icon"></span>
+                Explore my Full Store on Etsy
+            </a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .etsy-cta-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0;
+        width: 100%;
+    }
+
+    .etsy-store-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #e28a9d;
+        color: white;
+        text-decoration: none;
+        padding: 12px 25px;
+        border-radius: 25px;
+        gap: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        position: relative;
+        overflow: hidden;
+    }
+
+    .etsy-store-button::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(120deg, transparent, rgba(255,255,255,0.3), transparent);
+        transition: all 0.6s ease;
+    }
+
+    .etsy-store-button:hover::before {
+        left: 100%;
+    }
+
+    .etsy-store-button:hover {
+        background-color: #b1ebf6;
+        color: #e28a9d;
+        transform: translateY(-3px);
+        box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+    }
+
+    .etsy-icon {
+        color: #b1ebf6;
+        font-size: 1.5rem;
+        transition: transform 0.3s ease;
+    }
+
+    .etsy-store-button:hover .etsy-icon {
+        transform: scale(1.1) rotate(360deg);
+        color: #e28a9d;
+    }
+
+    @media (max-width: 768px) {
+        .etsy-store-button {
+            padding: 10px 20px;
+            font-size: 0.9rem;
+        }
+
+        .etsy-icon {
+            font-size: 1.2rem;
+        }
+    }
+</style>
+
+<!-- Features -->
+<div id="features-wrapper" style="padding-top: 20px;">
+    <div class="container" style="width: 100%; max-width: 100%; padding: 0;">
+        <!-- First Row -->
+        <div class="row" style="justify-content: center; text-align: center; padding: 20px 0;">
+            <div class="col-12 col-12-medium" style="display: flex; justify-content: center;">
+                <!-- Box 1 - Etsy Mini Shop Embed -->
+                <script type='text/javascript' src='https://www.etsy.com/assets/js/etsy_mini_shop.js'></script>
+                <script type='text/javascript'>new Etsy.Mini(16859622, 'gallery', 6, 4, 1, 'https://www.etsy.com');</script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<div id="footer-wrapper" style="background-color: #e28a9d; color: white;">
+    <footer id="footer" class="container">
+        <div class="row" style="display: flex; justify-content: space-between; align-items: flex-end;">
+            <div class="col-6" style="text-align: left;">
+                <div id="copyright">
+                    <ul class="menu" style="color: white;">
+                        <li>&copy; <a href="http://www.inmysparetimecrochet.com.au" style="color: white;">inmysparetime_crochet</a></li>
+                        <li>All rights reserved.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6" style="text-align: right;">
+                <!-- Contact -->
+                <section class="widget contact">
+                    <h3 style="color: white;">Stay Connected:</h3>
+                    <ul class="list-inline social-icons">
+                        <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCx7_LePoS6bgQ4ymkjNpctQ" class="icon brands fa-youtube" style="color: white;"><span class="label">YouTube</span></a></li>
+                        <li class="list-inline-item"><a href="https://www.facebook.com/inmysparetimecrochet" class="icon brands fa-facebook-f" style="color: white;"><span class="label">Facebook</span></a></li>
+                        <li class="list-inline-item"><a href="https://instagram.com/inmysparetime_crochet" class="icon brands fa-instagram" style="color: white;"><span class="label">Instagram</span></a></li>
+                        <li class="list-inline-item"><a href="https://inmysparetimecrochau.etsy.com/" class="icon brands fa-etsy" style="color: white;"><span class="label">Etsy</span></a></li>
+                        <li class="list-inline-item"><a href="https://tiktok.com/@inmysparetimecrochet" class="icon brands fa-tiktok" style="color: white;"><span class="label">TikTok</span></a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </footer>
+</div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
